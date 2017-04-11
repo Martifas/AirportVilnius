@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECEFF1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.vilniusairpot.MainActivity">
+
+    <LinearLayout
+        style="@style/wrap"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/picture"
+            android:src="@drawable/vno" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/wrap">
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_phone_black_18dp"/>
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_email_black_18dp"/>
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_share_black_18dp"/>
+        <ImageView
+            style="@style/icon"
+            android:src="@drawable/ic_place_black_18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/wrap">
+        <TextView
+            style="@style/text"
+            android:text="Phone"/>
+        <TextView
+            style="@style/text"
+            android:text="Email"/>
+        <TextView
+            style="@style/text"
+            android:text="Share"/>
+        <TextView
+            style="@style/text"
+            android:text="Location"/>
+    </LinearLayout>
+    <View
+        style="@style/line"
+        android:background="#000000"></View>
+    <LinearLayout
+        style= "@style/wrap"
+        android:orientation="vertical"
+        android:background="#ECEFF1">
+        <TextView
+            style="@style/info"
+            android:text="Open: 24/7"/>
+        <View
+            style="@style/line"
+            android:background="#000000"></View>
+        <TextView
+            style="@style/info"
+            android:text="Adress:  Rodūnios kelias 10a, LT-02189 Vilnius, Lithuania"/>
+        <View
+            style="@style/line"
+            android:background="#000000"></View>
+        <TextView
+            style="@style/info"
+            android:text="Info for passengers: +370 612 44442 "/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
